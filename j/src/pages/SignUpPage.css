@@ -1,0 +1,42 @@
+/* src/pages/SignUpPage.css */
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 8px;
+}
+
+.input {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+}
+
+.button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  font-size: 1.2em;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.error-message {
+  color: red;
+  font-size: 1em;
+  margin-top: 10px;
+}

@@ -1,0 +1,49 @@
+/* src/App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.page {
+  max-width: 100%; /* Adjust to full width */
+  margin: 20px 0; /* Remove auto margin and adjust top and bottom margin */
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 5px;
+}
+
+/* Add new styles for boxes */
+.box-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.box {
+  flex: 0 1 calc(30% - 20px); /* Adjusted width for three boxes in a row with margin */
+  text-align: center;
+  padding: 20px;
+  margin: 20px;
+  border: 2px solid #000;
+  transition: transform 0.1s ease-in-out;
+  box-sizing: border-box; /* Include padding and border in box size */
+}
+
+.box:hover {
+  transform: scale(1.05);
+}
+
+.box img {
+  width: 100%;
+  max-height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.box h3 {
+  margin-top: 10px;
+  font-size: 1.5em;
+}

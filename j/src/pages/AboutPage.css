@@ -1,0 +1,49 @@
+/* src/pages/AboutPage.css */
+.about-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .about-content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    border-radius: 5px;
+  }
+  
+  .about-content img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+  .about-content h2 {
+    margin-top: 20px;
+    font-size: 2em; /* Increase the font size */
+    font-weight: bold;
+  }
+  
+  .about-content h3 {
+    font-size: 1.5em; /* Set the font size for h3 */
+    font-weight: bold;
+  }
+  
+  .about-content p {
+    margin-top: 10px;
+    font-size: 1.4em; /* Increase the font size */
+    font-weight: bold; /* Increase the boldness */
+  }
+  /* src/pages/AboutPage.css */
+.about-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .about-image {
+    width: 1100px;
+    max-width: 4000px; 
+    height: 400px; 
+    
+  }

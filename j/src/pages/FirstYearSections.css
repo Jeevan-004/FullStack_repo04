@@ -1,0 +1,50 @@
+/* src/pages/FirstYearSections.css */
+
+.sections-container {
+    text-align: center;
+  }
+  
+  .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  .boxes-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap; 
+  }
+  
+  .section-box {
+    flex: 1; 
+    width: 300px;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #000;
+    transition: transform 0.1s ease-in-out;
+    margin: 20px;
+  }
+  
+  .section-box:hover {
+    transform: scale(1.05);
+  }
+  
+  .section-box img {
+    width: 100%;
+    max-height: 150px;
+    object-fit: cover;
+  }
+  
+  .section-box h3 {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .section-box p {
+    margin-top: 10px;
+    font-size: 1em;
+  }
+  

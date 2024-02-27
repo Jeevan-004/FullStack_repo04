@@ -1,0 +1,15 @@
+/* src/pages/ContactPage.css */
+.contact-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .contact-info {
+    font-weight: bold;
+  }
+  
+  .contact-image {
+    max-width: 100%; /* Ensure the image doesn't exceed its container */
+    margin-top: 20px;
+  }
+  
